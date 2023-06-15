@@ -85,8 +85,9 @@ header p {
 }
 
 footer {
-    position: absolute;
+    position: static;
     bottom: 0;
     line-height: .1;
+    clear: right;
     
 }

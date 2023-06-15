@@ -55,11 +55,10 @@ header p {
 footer {
     position: relative;
     font-weight: bolder;
-    color: teal;
+    color: black;
     line-height: .1;
 }
 
 footer h6 {
     margin: 20px, 20px;
-    text-align: center;
 }

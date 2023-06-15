@@ -1,6 +1,7 @@
-
-html {
-    /*background-image: url("/images/bg.jpg");*/
+#back1, #back2, #back3{
+    background-image: url("images/bg7.JPG");
+    background-size: 2400px;
+    background-repeat: no-repeat;
 }
 
 
@@ -27,20 +28,12 @@ header p {
     background-color: white;
     color: teal;
     font-weight:bold;
-    width: 600px;
+    width: 400px;
     padding: 2px;
     border: teal solid 3px;
     border-radius: 5px;
 }
 
-
-#clipart {
-    height:30px;
-    border: teal solid 3px;
-    border-radius: 5px;
-    vertical-align: bottom;
-    margin-right: 10px;
-}
 
 #contactInfo {
     align-self: center;
@@ -55,39 +48,18 @@ header p {
 #contactInfo h3, #contactInfo h4 {
     margin-left: 20px;
 }
-#photos {
-    display: grid;
-    grid-template-areas:    "lefta righta"
-                            "leftb rightb"
-                            "leftc rightc"
-                            "leftd rightd"
-                            "lefte righte"
-                            "leftf rightf"
-                            "leftg rightg"
-                            "lefth righth"
-                            "lefti righti"
-                            "leftj rightj";
-    position: relative;
-    margin: auto;
-    grid-template-columns: 450px 450px;
-    gap: 20px;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    grid-auto-flow: row;
-}
 
-#photos img{ 
-    width: 450px;
-    height: auto;
-    border: black 1px solid;
+#slide {
 }
 
 footer {
-    position: static;
-    bottom: 0;
+    position: relative;
+    font-weight: bolder;
+    color: teal;
     line-height: .1;
-    clear: right;
-    
+}
+
+footer h6 {
+    margin: 20px, 20px;
+    text-align: center;
 }
